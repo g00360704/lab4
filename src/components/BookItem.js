@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+// Create a functional component called BookItem that takes 'props' as its argument.
 function BookItem(props){
 return(
     <div>
@@ -16,4 +17,5 @@ return(
 </div>
 );
 }
+// Export the BookItem component to make it available for use in other parts of the application.
 export default BookItem;
