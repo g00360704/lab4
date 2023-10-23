@@ -4,7 +4,6 @@ import axios from "axios";
 
 function Read() {
     // Define a React component called 'Read' responsible for fetching and displaying book data.
-
     // Initialize a 'data' state variable using the 'useState' hook.
     const [data, setData] = useState([]);
 
